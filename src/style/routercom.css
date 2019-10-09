@@ -1,0 +1,35 @@
+.tabBar{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height:0.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -0.05rem 0.2rem #f0f0f0;
+}
+.tabBar>a{
+    color:#b1b1b1;
+    font-size: 0.18rem;
+}
+.tabBar>#third>i>img{
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+   background: #fcffff;
+}
+.tabBar>a:nth-child(3){
+    display: inline-block;
+    width: 0.6rem;
+    height:0.6rem;
+   text-align: center;
+   border-radius: 50%;
+   margin-top:-0.55rem;
+}
+.tabBar>a>i{
+    font-size: 0.3rem;
+}
+.tabBar>.tabCor{
+    color:#f79925;
+}

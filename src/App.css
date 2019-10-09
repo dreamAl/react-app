@@ -1,0 +1,14 @@
+@import  '~antd/dist/antd.css';
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 26.67vw;
+}
+a:hover{
+    color:#b1b1b1;
+}

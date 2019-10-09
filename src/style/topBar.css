@@ -1,0 +1,21 @@
+.topBar{
+    width: 100%;
+    height:0.7rem;
+    background: #fea73d;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.topBar>i{
+    display: inline-block;
+    font-size: 0.35rem;
+    color:#fafeff;
+    margin-top:0.2rem;
+    margin-left: 1.2rem;
+}
+.topBar>p{
+    font-size: 0.24rem;
+    color:#f8fffa;
+    margin-top:0.4rem;
+    margin-left: 1.5rem;
+}
