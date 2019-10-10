@@ -1,5 +1,16 @@
 .pic{
     width: 100%;
     height:2rem;
-    background: pink;
+    overflow: auto;
+    display: flex;
+}
+.picOne{
+    width:80%;
+    margin-left:0.2rem;
+    height: 2rem;
+    flex-shrink:0;   
+}
+.picOne>img{
+    width: 100%;
+    height:100%;
 }

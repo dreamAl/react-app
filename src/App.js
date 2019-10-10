@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter,Route} from 'react-router-dom';
+import {BrowserRouter,Route,Redirect} from 'react-router-dom';
 import Routercom from './components/routercom';
 import Index from './pages/index';
 import Community from './pages/community';
@@ -11,14 +11,16 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <div>
-        <Routercom/>
+      <div className="bodys">
         <Route path="/index" component={Index}></Route>
         <Route path="/community" component={Community}></Route>
         <Route path="/publish" component={Publish}></Route>
         <Route path="/message" component={Message}></Route>
         <Route path="/my" component={My}></Route>
+        {/* 设置路由重定向 */}
+        <Redirect to="/index"/>
       </div>
+        <Routercom/>
       </BrowserRouter>
     </div>
   );

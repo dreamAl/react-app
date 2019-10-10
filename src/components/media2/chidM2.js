@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import  '../../style/silder.css'
-// import Img from '../../img/1.png'
-export default class chilSilder extends Component {
+import "../../style/parM.css"
+export default class chidM extends Component {
     render() {
         return (
-            <div className="picOne">
+            <div className="cons">
+                <p>{this.props.tit}</p>
                 <img src={this.props.imgUrl} alt=""/>
             </div>
         )

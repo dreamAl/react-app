@@ -5,6 +5,8 @@
     overflow: hidden;
     display: flex;
     align-items: center;
+    /* position: fixed;
+    top:0; */
 }
 .topBar>i{
     display: inline-block;

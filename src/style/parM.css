@@ -1,0 +1,34 @@
+.linkall{
+    width:90% ;
+    margin: 0.2rem auto  0;
+    display: flex;
+    justify-content: space-between;
+}
+.linkall>h3{
+    font-size: 0.24rem;
+    font-weight: bolder;
+    color:#020202;
+}
+.linkall>a{
+    font-size: 0.2rem;
+    color:#afafaf;
+}
+.cons{
+    width: 90%;
+    height: 1.2rem;
+    margin-left: 0.2rem;
+    margin-bottom:0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cons>p{
+    font-size:0.2rem;
+    color:#010101;
+    font-weight: bolder;
+    flex: 2;
+}
+.cons>img{
+    width: 1.5rem;
+    height:1.2rem;
+}

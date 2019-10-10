@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: #fff;
     box-shadow: 0 -0.05rem 0.2rem #f0f0f0;
 }
 .tabBar>a{
@@ -25,6 +26,7 @@
     height:0.6rem;
    text-align: center;
    border-radius: 50%;
+   box-shadow: 0 -0.05rem 0.2rem #f0f0f0;
    margin-top:-0.55rem;
 }
 .tabBar>a>i{
