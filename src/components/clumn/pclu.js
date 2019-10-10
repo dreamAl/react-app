@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import TopBar from '../components/topBar/topBar'
-import Pclu from '../components/clumn/pclu'
+import  '../../style/clumn.css'
+import Zclu from './zclu'
 export default class message extends Component {
     render() {
         return (
             <div>
-                <TopBar/>
-                <Pclu/>
+               <Zclu/>
             </div>
         )
     }

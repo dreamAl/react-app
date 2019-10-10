@@ -18,7 +18,7 @@ function App() {
         <Route path="/message" component={Message}></Route>
         <Route path="/my" component={My}></Route>
         {/* 设置路由重定向 */}
-        <Redirect to="/index"/>
+        <Redirect to="/my"/>
       </div>
         <Routercom/>
       </BrowserRouter>
