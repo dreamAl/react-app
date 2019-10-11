@@ -9,11 +9,11 @@ import Img5 from '../../img/1.15.png'
 export default class par extends Component {
     state={
         arr:[
-            {imgurl:Img1 ,tit:"最简单的自制沙拉"},
-            {imgurl:Img2 ,tit:"龙利鱼沙拉"},
-            {imgurl:Img3 ,tit:"秋天喝这个不仅止咳润肺皮肤变得超有弹性"},
-            {imgurl:Img4 ,tit:"青州蜜桃"},
-            {imgurl:Img5 ,tit:"补肾生发低卡零食之炒黑豆"},
+            {id:16,imgurl:Img1 ,tit:"最简单的自制沙拉"},
+            {id:17,imgurl:Img2 ,tit:"龙利鱼沙拉"},
+            {id:18,imgurl:Img3 ,tit:"秋天喝这个不仅止咳润肺皮肤变得超有弹性"},
+            {id:19,imgurl:Img4 ,tit:"青州蜜桃"},
+            {id:20,imgurl:Img5 ,tit:"补肾生发低卡零食之炒黑豆"},
         ]
     }
     render() {

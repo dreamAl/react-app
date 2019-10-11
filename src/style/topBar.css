@@ -5,15 +5,17 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    /* position: fixed;
-    top:0; */
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index:999 ;
 }
 .topBar>i{
     display: inline-block;
     font-size: 0.35rem;
     color:#fafeff;
     margin-top:0.2rem;
-    margin-left: 1.2rem;
+    margin-left: 1rem;
 }
 .topBar>p{
     font-size: 0.24rem;

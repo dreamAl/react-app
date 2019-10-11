@@ -1,0 +1,40 @@
+.listBox{
+    width: 100%;
+    background: #f2f2f2;
+    column-count: 2;
+    column-gap: 0.1rem;
+    margin:0.7rem 0;
+}
+.list{
+    width: 100%;
+    background:white;
+    margin-top:0.1rem;
+}
+.list>img{
+    width: 100%;
+}
+.list>p{
+    text-indent: 0.1rem;
+    font-size: 0.18rem;
+    color:black;
+    font-weight: 700;
+}
+.list>span>i:first-child{
+    margin-left:0.1rem;
+}
+.list>span>b:nth-child(2){
+    padding-right:0.7rem;
+}
+.listBott{
+    width: 90%;
+    height:0.6rem;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    border-top:2px solid #e6e6e6;
+}
+.listBott>img{
+    margin-left:0.1rem;
+    width: 0.4rem;
+    height:0.4rem;
+}

@@ -14,16 +14,16 @@ import Img10 from '../../img/010.png'
 export default class par extends Component {
     state={
         arr:[
-            {imgurl:Img1 ,tit:"甜菜根玛德琳-低卡低油版"},
-            {imgurl:Img2 ,tit:"玉米汁和玉米饼的双重美味"},
-            {imgurl:Img3 ,tit:"手抓饼(猪油),百分百还原路边摊的味道"},
-            {imgurl:Img4 ,tit:"当归姐姐的搬运工-log24.=1.3802112417Brunch:什么都来点的早午餐"},
-            {imgurl:Img5 ,tit:"迁西板栗的正确吃法"},
-            {imgurl:Img6 ,tit:"简单又高颜值-培根煎蛋"},
-            {imgurl:Img7 ,tit:"很随意的煎饼果子(家庭自制)"},
-            {imgurl:Img8 ,tit:"减脂轻食时蔬卷"},
-            {imgurl:Img9 ,tit:"减脂餐/全麦彩条蒸糕"},
-            {imgurl:Img10 ,tit:"鲜肉小馄饨"}
+            {id:6,imgurl:Img1 ,tit:"甜菜根玛德琳-低卡低油版"},
+            {id:7,imgurl:Img2 ,tit:"玉米汁和玉米饼的双重美味"},
+            {id:8,imgurl:Img3 ,tit:"手抓饼(猪油),百分百还原路边摊的味道"},
+            {id:9,imgurl:Img4 ,tit:"当归姐姐的搬运工-log24.=1.3802112417Brunch:什么都来点的早午餐"},
+            {id:10,imgurl:Img5 ,tit:"迁西板栗的正确吃法"},
+            {id:11,imgurl:Img6 ,tit:"简单又高颜值-培根煎蛋"},
+            {id:12,imgurl:Img7 ,tit:"很随意的煎饼果子(家庭自制)"},
+            {id:13,imgurl:Img8 ,tit:"减脂轻食时蔬卷"},
+            {id:14,imgurl:Img9 ,tit:"减脂餐/全麦彩条蒸糕"},
+            {id:15,imgurl:Img10 ,tit:"鲜肉小馄饨"}
         ]
     }
     render() {

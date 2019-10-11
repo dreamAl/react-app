@@ -15,16 +15,18 @@ export default class index extends Component {
         return (
             <div>
                 <TopBar/>
-                <Search className="search"
-                    placeholder="搜索食谱、食材"
-                    onSearch={value => console.log(value)}/>
-                <Banner/>
-                <ParSilder/>
-                <Par/>
-                <Par3/>
-                <ParM/>
-                <Sup/>
-                <ParM2/>
+                <div className="bodyH">
+                    <Search className="search"
+                        placeholder="搜索食谱、食材"
+                        onSearch={value => console.log(value)}/>
+                    <Banner/>
+                    <ParSilder/>
+                    <Par/>
+                    <Par3/>
+                    <ParM/>
+                    <Sup/>
+                    <ParM2/>
+                </div>                
             </div>                
         )
     }

@@ -8,10 +8,10 @@ import Img4 from '../../img/4.4.png'
 export default class parM extends Component {
     state={
         arr:[
-            {tit:"湛江白切鸡",imgUrl:Img1},
-            {tit:"秋季贴膘之煎牛排",imgUrl:Img2},
-            {tit:"炸土豆",imgUrl:Img3},
-            {tit:"蔬菜鸡蛋饼",imgUrl:Img4},
+            {id:21,tit:"湛江白切鸡",imgUrl:Img1},
+            {id:22,tit:"秋季贴膘之煎牛排",imgUrl:Img2},
+            {id:23,tit:"炸土豆",imgUrl:Img3},
+            {id:24,tit:"蔬菜鸡蛋饼",imgUrl:Img4},
         ]
     }
     render() {

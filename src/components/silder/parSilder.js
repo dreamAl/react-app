@@ -9,11 +9,11 @@ import Img5 from '../../img/5.png'
 export default class parSilder extends Component {
     state={
         arr:[
-            {imgUrl:Img1},
-            {imgUrl:Img2},
-            {imgUrl:Img3},
-            {imgUrl:Img4},
-            {imgUrl:Img5}
+            {id:1,imgUrl:Img1},
+            {id:2,imgUrl:Img2},
+            {id:3,imgUrl:Img3},
+            {id:4,imgUrl:Img4},
+            {id:5,imgUrl:Img5}
         ]
     }
     render() {

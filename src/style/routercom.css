@@ -1,6 +1,7 @@
 .tabBar{
     position: fixed;
-    bottom:0;
+    left: 0px;
+    bottom: 0px;
     width: 100%;
     height:0.7rem;
     display: flex;
@@ -33,5 +34,20 @@
     font-size: 0.3rem;
 }
 .tabBar>.tabCor{
-    color:#f79925;
+    color:#f79925;  
+}
+.tabBar>.tabCor>i {
+    animation: ani 0.2s;
+} 
+/* 底部bar动画效果 */
+@keyframes ani {
+    0%{
+        transform: scale(1.5);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
